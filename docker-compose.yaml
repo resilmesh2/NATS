@@ -6,8 +6,8 @@ services:
     build:
       context: "./"
     ports:
-      - 4222:4222
-      - 8222:8222
-      - 6222:6222
+      - 4222
+      - 8222
+      - 6222
     networks:
       - resilmesh_network
