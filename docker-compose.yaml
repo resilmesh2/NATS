@@ -1,6 +1,6 @@
 services:
   resilmesh_ap_nats:
-    container_name: "NATS"
+    container_name: "resilmesh_ap_nats"
     hostname: "nats"
     restart: unless-stopped
     build:
